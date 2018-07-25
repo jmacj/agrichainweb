@@ -55,6 +55,7 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['register'] = 'SiteController/register';
 $route['login'] = 'SiteController/login';
+$route['login/submit'] = 'UserController/login_submit';
 
 
 $route['api/auth/login'] = 'SiteController/auth';

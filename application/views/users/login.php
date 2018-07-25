@@ -11,7 +11,7 @@
 		<div class="card">
 			<div class="card-content">
 				<span class="card-title center green-text text-darken-4">AgriChain</span>
-				<form id="form_login" method="POST">
+				<form id="form_login" method="POST" action="login/submit">
 					<?php if ($this->session->flashdata("message")): ?>
 						<div class="card-panel red darken-1">
 							<div class="white-text">
@@ -21,8 +21,8 @@
 					<?php endif; ?>
 					<div class="input-field">
 						<i class="material-icons prefix">account_circle</i>
-						<label for="username">Username</label>
-						<input id="username" type="text" name="username" />
+						<label for="email">Email</label>
+						<input id="email" type="email" name="email" />
 					</div>
 					<div class="input-field">
 						<i class="material-icons prefix">lock</i>
